@@ -3,12 +3,12 @@ babel代码清洁工，删除指定的调试代码
 
 ```
 
-## 安装插件
+## 安装babel插件
 ```js
 npm install babel-plugin-code-cleaner -D
 ```
 
-## 使用
+## babel配置
 babel.config.js
 ```js
 {
@@ -26,11 +26,12 @@ babel.config.js
 }
 ```
 
-## 文档
-
-| 参数   | 类型 |  默认值 | 介绍 |
-| :----- | :--: | :--:|:--|----- |
-| env |	String |	空 | env === 'production'，则始终执行cleaner |
-| ignoreDebug |	Boolean|	false | 跳过debugger的cleaner |
-| commentWord |	String |	@ignore-code-cleaner | 遇到注释跳过cleaner，类似于 ```// @ts-ignore``` |
+## 配置项
+<table><thead>
+<tr><td>参数</td><td>类型</td><td>默认值</td><td>介绍</td></tr>
+</thead><tbody>
+<tr><td>env</td><td>string</td><td>空</td><td>env === 'production'，则始终执行cleaner</td></tr>
+<tr><td>ignoreDebug</td><td>boolean</td><td>false</td><td>跳过debugger的cleaner</td></tr>
+<tr><td>commentWord</td><td>string</td><td>@ignore-code-cleaner</td><td>遇到注释跳过cleaner，类似于 ```// @ts-ignore```</td></tr>
+</tbody></table>
 
