@@ -1,9 +1,7 @@
 # babel-plugin-code-cleaner
-babel代码清洁工，删除指定的调试代码
+babel代码清洁工，删除指定的调试代码：```console``` & ```debugger```
 
-```
-
-## 安装babel插件
+## 插件安装
 ```js
 npm install babel-plugin-code-cleaner -D
 ```
