@@ -1,7 +1,7 @@
 {
   "name": "babel-plugin-code-cleaner",
-  "version": "0.1.0",
-  "description": "babel代码清洁工，删除指定的console&debugger调试代码",
+  "version": "0.1.1",
+  "description": "babel code cleaner, removes specified console & debugger debugging code",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "scripts": {
