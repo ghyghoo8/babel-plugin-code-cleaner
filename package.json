@@ -16,10 +16,11 @@
   "keywords": [
     "babel",
     "babel-plugin",
-    "babel-plugin-code-cleaner",
     "clean",
+    "clear",
+    "remove",
     "console",
-    "debugger"
+    "debug"
   ],
   "author": "ghy <ghyghoo8@qq.com>",
   "license": "Apache-2.0",
