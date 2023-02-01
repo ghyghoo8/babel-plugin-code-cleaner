@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-code-cleaner",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "babel code cleaner, removes specified console & debugger debugging code",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -23,7 +23,7 @@
     "debug"
   ],
   "author": "ghy <ghyghoo8@qq.com>",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ghyghoo8/babel-plugin-code-cleaner/issues"
   },
